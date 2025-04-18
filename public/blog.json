@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "cover_img": "https://i.ibb.co.com/HTY4gDcK/1.jpg",
+      "author": "Alice Johnson",
+      "author_img": "https://i.ibb.co.com/nM79PL08/boy2.jpg",
+      "date_post": "2025-04-01",
+      "title": "How AI is Transforming Everyday Life",
+      "read_time": 5,
+      "#tag": ["AI", "Technology", "Future"]
+    },
+    {
+      "id": 2,
+      "cover_img":"https://i.ibb.co.com/LXXGwNv3/2.png",
+      "author": "Michael Lee",
+      "author_img": "https://i.ibb.co.com/nM79PL08/boy2.jpg",
+      "date_post": "2025-03-28",
+      "title": "Top 10 Coding Practices for Beginners",
+      "read_time": 7,
+      "#tag": ["Coding", "Tips", "Development"]
+    },
+    {
+      "id": 3,
+      "cover_img": "https://i.ibb.co.com/fVHbFNf9/3.png",
+      "author": "Sofia Ahmed",
+      "author_img": "https://i.ibb.co.com/nM79PL08/boy2.jpg",
+      "date_post": "2025-03-26",
+      "title": "Mastering JavaScript in 30 Days",
+      "read_time": 6,
+      "#tag": ["JavaScript", "Programming", "ES6"]
+    },
+    {
+      "id": 4,
+      "cover_img": "https://i.ibb.co.com/fYD17Vpx/4.jpg",
+      "author": "David Kim",
+      "author_img": "https://i.ibb.co.com/nM79PL08/boy2.jpg",
+      "date_post": "2025-04-02",
+      "title": "The Rise of Remote Work Culture",
+      "read_time": 4,
+      "#tag": ["Remote Work", "Career", "Trends"]
+    },
+    {
+      "id": 5,
+      "cover_img": "https://i.ibb.co.com/fYD17Vpx/4.jpg",
+      "author": "Emily Zhang",
+      "author_img": "https://i.ibb.co.com/nM79PL08/boy2.jpg",
+      "date_post": "2025-03-30",
+      "title": "Beginner’s Guide to Investing in Crypto",
+      "read_time": 8,
+      "#tag": ["Crypto", "Finance", "Beginner"]
+    },
+    {
+      "id": 6,
+      "cover_img": "https://i.ibb.co.com/fYD17Vpx/4.jpg",
+      "author": "John Smith",
+      "author_img": "https://i.ibb.co.com/nM79PL08/boy2.jpg",
+      "date_post": "2025-03-27",
+      "title": "Top 5 Laptops for Developers in 2025",
+      "read_time": 5,
+      "#tag": ["Tech", "Laptops", "Developers"]
+    },
+    {
+      "id": 7,
+      "cover_img": "https://i.ibb.co.com/fYD17Vpx/4.jpg",
+      "author": "Nora Wilson",
+      "author_img": "https://i.ibb.co.com/nM79PL08/boy2.jpg",
+      "date_post": "2025-04-03",
+      "title": "Eco-Friendly Habits for a Greener Planet",
+      "read_time": 6,
+      "#tag": ["Environment", "Lifestyle", "Sustainability"]
+    },
+    {
+      "id": 8,
+      "cover_img": "https://i.ibb.co.com/fYD17Vpx/4.jpg",
+      "author": "Carlos Mendes",
+      "author_img": "https://i.ibb.co.com/nM79PL08/boy2.jpg",
+      "date_post": "2025-04-04",
+      "title": "Traveling the World on a Budget",
+      "read_time": 9,
+      "#tag": ["Travel", "Budget", "Adventure"]
+    },
+    {
+      "id": 9,
+      "cover_img": "https://i.ibb.co.com/fYD17Vpx/4.jpg",
+      "author": "Linda Park",
+      "author_img": "https://i.ibb.co.com/nM79PL08/boy2.jpg",
+      "date_post": "2025-04-05",
+      "title": "Why Mental Health Matters More Than Ever",
+      "read_time": 7,
+      "#tag": ["Health", "Mindfulness", "Wellbeing"]
+    },
+    {
+      "id": 10,
+      "cover_img": "https://i.ibb.co.com/fYD17Vpx/4.jpg",
+      "author": "Ahmed Khan",
+      "author_img": "https://i.ibb.co.com/nM79PL08/boy2.jpg",
+      "date_post": "2025-04-06",
+      "title": "Building a Startup: Lessons from Failure",
+      "read_time": 10,
+      "#tag": ["Startup", "Entrepreneurship", "Lessons"]
+    }
+  ]
+  
