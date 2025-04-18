@@ -1,9 +1,10 @@
 import { FaBookmark } from "react-icons/fa";
 import PropTypes from 'prop-types';
 
-const Blog = ({blog,handelBookMark}) => {
+const Blog = ({blog,handelBookMark,handelMarkAsRead, readId}) => {
+   
     // console.log(blog)
-    const{title,cover_img,author,author_img,read_time,date_post}=blog
+    const{title,id,cover_img,author,author_img,read_time,date_post}=blog
     return (
         <div className="max-w-7xl mx-auto">
          <div>
@@ -15,6 +16,9 @@ const Blog = ({blog,handelBookMark}) => {
                     <h1 className="text-2xl">{read_time} Min</h1>
                    <button onClick={()=>handelBookMark(blog)} className="text-2xl"><FaBookmark /></button>
                 </div>
+               <button onClick={()=>handelMarkAsRead(id,read_time)}
+               disabled={readId.includes(id)}
+                className="text-pink-400 font-semibold"> Mark as Read</button>
                 </div>
                 <div className='flex items-center'>
                     <img className='w-28' src={author_img} alt="" />
@@ -30,7 +34,10 @@ const Blog = ({blog,handelBookMark}) => {
 };
 
 Blog.propTypes = {
-    blog:PropTypes.object
+    blog:PropTypes.object,
+    handelBookMark:PropTypes.func,
+    handelMarkAsRead:PropTypes.func,
+    readId:PropTypes.number
 };
 
 export default Blog;
