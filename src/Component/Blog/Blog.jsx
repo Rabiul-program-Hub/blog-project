@@ -1,23 +1,23 @@
 import { FaBookmark } from "react-icons/fa";
 import PropTypes from 'prop-types';
 
-const Blog = ({blog}) => {
-    console.log(blog)
+const Blog = ({blog,handelBookMark}) => {
+    // console.log(blog)
     const{title,cover_img,author,author_img,read_time,date_post}=blog
     return (
         <div className="max-w-7xl mx-auto">
          <div>
-            <img className='w-full' src={cover_img} alt="" />
+            <img className='w-full rounded-xl' src={cover_img} alt="" />
             <div>
                 <div className="flex justify-between">
-                <h1>{title}</h1>
+                <h1 className="text-3xl font-semibold">{title}</h1>
                 <div className="flex gap-4 items-center">
-                    <h1>{read_time} Min</h1>
-                    <FaBookmark />
+                    <h1 className="text-2xl">{read_time} Min</h1>
+                   <button onClick={()=>handelBookMark(blog)} className="text-2xl"><FaBookmark /></button>
                 </div>
                 </div>
                 <div className='flex items-center'>
-                    <img className='w-36' src={author_img} alt="" />
+                    <img className='w-28' src={author_img} alt="" />
                    <div>
                    <h1>{author}</h1>
                    <h1>{date_post}</h1>
