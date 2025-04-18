@@ -7,9 +7,13 @@ import BookMarks from './Component/BookMarks/BookMarks'
 function App() {
 const [bookMarks,setBookMark] =useState([])
 const handelBookMark=(blog)=>{
-  const newBookmark =[...bookMarks,blog]
-  setBookMark(newBookmark)
-console.log(bookMarks)
+  const isExist = bookMarks.find(bookmark=> bookmark.id == blog.id);
+  if(!isExist){
+    setBookMark([...bookMarks,blog])
+  }else{
+    alert('dubble not alowed ')
+  }
+
 }
 
   return (
